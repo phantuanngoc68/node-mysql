@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<<img src="/images/shop.png" height="50px" width="50px"> <%= title %>
+<p><%= name %></p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Brand</th>
+        <th>Price</th>
+    </tr>
+    <% products.forEach((product, index) => { %>
+        <tr>
+            <td><a href="/product/<%= product.product_id%>"><%= product.product_name %></a></td>
+            <td><%= product.brand_id %></a></td>
+            <td><%= product.list_price %></a></td>
+        </tr>
+    <% }) %>
+</table>
+</body>
+</html>
