@@ -4,3 +4,5 @@ https://www.onlinetutorialspoint.com/mysql/install-mysql-on-windows-10-step-by-s
 
 Các bạn có thể thay sql bằng cách cài đặt Mariadb và sử dụng như sql 
 https://mariadb.com/downloads/
+
+## Tiến hành clone hoặc download, run command npm install và tiến hành chạy file app.js: node app.js
